@@ -1,0 +1,33 @@
+let t1=gsap.timeline();
+
+t1.to("#box1",
+    {
+        x:1000,
+        duration:2,
+        rotate:360,
+        backgroundColor:"royalblue",
+        scale:0.5,
+        stagger:0.3,
+        delay:1
+    }
+)
+t1.to("#box2",
+    {
+        x:1000,
+        duration:2,
+        rotate:360,
+        backgroundColor:"cadetblue",
+        scale:0.7,
+        delay:1
+    }
+)
+t1.to("#box3",
+    {
+        x:1000,
+        duration:2,
+        rotate:360,
+        backgroundColor:"red",
+        scale:0.9,
+        delay:1
+    }
+)
