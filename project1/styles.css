@@ -141,3 +141,174 @@ h3:hover{
   object-fit: cover;
   gap: 10px;
 }
+#text{
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  display: flex;
+  background-color: black;
+}
+#ctnt{
+  height: 100%;
+  width: 30%;
+
+  padding-left: 120px;
+  padding-top: 70px;
+  word-spacing: 5px;
+}
+#ctnt h3{
+   font-size: 9vh;
+}
+#ctnt p{
+  font-size: 4vh;
+}
+#photu{
+  margin-left: 20%;
+  height: 100%;
+  width: 50%;
+}
+#photu img{
+  height: 0%;
+  width: 65%;
+  object-fit: cover;
+  padding-left: 15%;
+  padding-top: 19%;
+  filter: grayscale(100%);
+}
+#last{
+  width:100%;
+  min-height:100vh;
+  background:#000;
+  color:#fff;
+  display:flex;
+  padding:80px 100px;
+  box-sizing:border-box;
+  gap:80px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* ================= LEFT ================= */
+
+#lef{
+  width:45%;
+  display:flex;
+  flex-direction:column;
+  gap:25px;
+}
+
+#lef h2{
+  font-size:36px;
+  font-weight:500;
+}
+
+#lef p{
+  font-size:14px;
+  line-height:1.6;
+  color:#aaa;
+  max-width:420px;
+}
+
+#lef button{
+  width:240px;
+  padding:18px 20px;
+  background:#fff;
+  color:#000;
+  border:none;
+  font-size:20px;
+  font-weight:500;
+  cursor:pointer;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+#lef pre{
+  font-size:13px;
+  color:#aaa;
+  line-height:1.6;
+  font-family:inherit;
+}
+
+#lef p:last-child{
+  font-size:12px;
+  color:#777;
+  margin-top:auto;
+}
+
+/* ================= RIGHT ================= */
+
+.right{
+  width:55%;
+  color:#aaa;
+}
+
+/* -------- MENU -------- */
+
+.menu{
+  border-top:1px solid #222;
+}
+
+.item{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:28px 20px;
+  border-bottom:1px solid #222;
+  cursor:pointer;
+  transition:background 0.3s ease, color 0.3s ease;
+}
+
+.item span{
+  font-size:14px;
+  letter-spacing:1px;
+}
+
+.item .arrow{
+  font-size:18px;
+  opacity:0.6;
+}
+
+.item:hover{
+  background:#2a2a2a;
+  color:#fff;
+}
+
+/* -------- SOCIALS -------- */
+
+.socials{
+  display:flex;
+  gap:50px;
+  padding:40px 20px;
+  border-bottom:1px solid #222;
+}
+
+.socials span{
+  font-size:18px;
+  opacity:0.6;
+  cursor:pointer;
+  transition:opacity 0.3s ease;
+}
+
+.socials span:hover{
+  opacity:1;
+}
+
+/* -------- CONTACT -------- */
+
+.contact{
+  display:flex;
+  justify-content:space-between;
+  padding:40px 20px;
+}
+
+.contact p{
+  font-size:12px;
+  color:#777;
+  margin-bottom:10px;
+}
+
+.contact h4{
+  font-size:16px;
+  font-weight:400;
+  color:#fff;
+}
